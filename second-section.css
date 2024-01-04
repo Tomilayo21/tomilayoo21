@@ -336,15 +336,15 @@
     .second-section{
         width: 100%;
         height: 450px;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
         display: flex;
         flex-direction: column;
         padding: 1rem 9%;
     }
     .second-section .second-section-subMain .grid1 {
         display: grid;
-        grid-template-columns: repeat(4, 90px);
-        grid-template-rows: repeat(3, 80px);
+        grid-template-columns: repeat(4, 75px);
+        grid-template-rows: repeat(3, 65px);
         justify-content: center;
         align-content: center;
         column-gap: 5px;
@@ -366,5 +366,29 @@
         width: 80px;
         transform: rotate(30deg);
         opacity: 0.2;
+    }
+    /* Bootstrap Image  */
+    .second-section .second-section-subMain  .div3 img {
+        width: 70px;
+    }
+    /* React Image */
+    .second-section .second-section-subMain  .div7 img {
+        width: 70px;
+    }
+    /* HTML5 Image */
+    .second-section .second-section-subMain  .div8 img {
+        width: 50px;
+    }
+    /* jQuery Image */
+    .second-section .second-section-subMain  .div6 img,
+    /* Shopify Image */
+    .second-section .second-section-subMain  .div9 img
+    {
+        width: 40px;
+    }
+    /* JavaScript Image */
+    .second-section .second-section-subMain  .div5 img 
+    {
+        width: 60px;
     }
 }
