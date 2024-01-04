@@ -1,0 +1,205 @@
+.third-section{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 9%;
+    padding-bottom: 100px;
+    /* margin-bottom: 400px; */
+    background-color: var(--mintGreen);
+}
+.third-section .third-section-main{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 30px; */
+}
+.third-section .third-section-main p{   
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.third-section .third-section-subMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    flex: 3;
+    height: 120px;
+}
+.third-section .third-section-subMain .service-cell-1,
+.third-section .third-section-subMain .service-cell-2,
+.third-section .third-section-subMain .service-cell-3,
+.third-section .third-section-subMain .service-cell-4,
+.third-section .third-section-subMain .service-cell-5,
+.third-section .third-section-subMain .service-cell-6
+{
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border-radius: 3px;
+    border: 2px solid var(red);
+}
+.third-section .third-section-subMain .service-cell-1 .number-1,
+.third-section .third-section-subMain .service-cell-2 .number-1,
+.third-section .third-section-subMain .service-cell-3 .number-1,
+.third-section .third-section-subMain .service-cell-4 .number-1,
+.third-section .third-section-subMain .service-cell-5 .number-1,
+.third-section .third-section-subMain .service-cell-6 .number-1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.third-section .third-section-subMain .service-cell-1 .number-1 img,
+.third-section .third-section-subMain .service-cell-2 .number-1 img,
+.third-section .third-section-subMain .service-cell-3 .number-1 img,
+.third-section .third-section-subMain .service-cell-4 .number-1 img,
+.third-section .third-section-subMain .service-cell-5 .number-1 img,
+.third-section .third-section-subMain .service-cell-6 .number-1 img
+{
+    width: 30px;
+}
+.third-section .third-section-subMain .service-cell-1 .number-2,
+.third-section .third-section-subMain .service-cell-2 .number-2,
+.third-section .third-section-subMain .service-cell-3 .number-2,
+.third-section .third-section-subMain .service-cell-4 .number-2,
+.third-section .third-section-subMain .service-cell-5 .number-2,
+.third-section .third-section-subMain .service-cell-6 .number-2
+{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+.third-section .third-section-subMain .service-cell-1 .number-2 .sub-1,
+.third-section .third-section-subMain .service-cell-2 .number-2 .sub-1,
+.third-section .third-section-subMain .service-cell-3 .number-2 .sub-1,
+.third-section .third-section-subMain .service-cell-4 .number-2 .sub-1,
+.third-section .third-section-subMain .service-cell-5 .number-2 .sub-1,
+.third-section .third-section-subMain .service-cell-6 .number-2 .sub-1
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+.third-section .third-section-subMain .service-cell-1 .number-2 .sub-1 p,
+.third-section .third-section-subMain .service-cell-2 .number-2 .sub-1 p,
+.third-section .third-section-subMain .service-cell-3 .number-2 .sub-1 p,
+.third-section .third-section-subMain .service-cell-4 .number-2 .sub-1 p,
+.third-section .third-section-subMain .service-cell-5 .number-2 .sub-1 p,
+.third-section .third-section-subMain .service-cell-6 .number-2 .sub-1 p
+ {
+    font-size: 18px;
+    font-weight: bold;
+}
+.third-section .third-section-subMain .service-cell-1 .number-2 .sub-2,
+.third-section .third-section-subMain .service-cell-2 .number-2 .sub-2,
+.third-section .third-section-subMain .service-cell-3 .number-2 .sub-2,
+.third-section .third-section-subMain .service-cell-4 .number-2 .sub-2,
+.third-section .third-section-subMain .service-cell-5 .number-2 .sub-2,
+.third-section .third-section-subMain .service-cell-6 .number-2 .sub-2
+{
+    flex: 2.5;
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+    z-index: 1;
+}
+.third-section .third-section-subMain .service-cell-1 .number-2 .sub-2 p,
+.third-section .third-section-subMain .service-cell-2 .number-2 .sub-2 p,
+.third-section .third-section-subMain .service-cell-3 .number-2 .sub-2 p,
+.third-section .third-section-subMain .service-cell-4 .number-2 .sub-2 p,
+.third-section .third-section-subMain .service-cell-5 .number-2 .sub-2 p,
+.third-section .third-section-subMain .service-cell-6 .number-2 .sub-2 p
+{
+    font-size: 13px;
+}
+@media (max-width: 991px) {
+    .third-section{
+        width: 100%;
+        height: 1000px;
+        margin-top: 1px;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 9%;
+        padding-bottom: 100px;
+        background-color: var(--mintGreen);
+    }
+    .third-section .third-section-main p{   
+        margin-top: -120px;
+        font-size: 3rem;
+        font-weight: bold;
+        color: black;
+    }
+    .third-section .third-section-subMain{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        column-gap: 40px;
+        flex: 3;
+        height: 150px;
+        margin-top: -150px;
+        
+    }
+    .third-section .third-section-subMain .service-cell-1,
+    .third-section .third-section-subMain .service-cell-2,
+    .third-section .third-section-subMain .service-cell-3,
+    .third-section .third-section-subMain .service-cell-4,
+    .third-section .third-section-subMain .service-cell-5,
+    .third-section .third-section-subMain .service-cell-6
+    {
+        background-color: rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        padding: 10px;
+    }
+    .third-section .third-section-subMain .service-cell-1 .number-2 .sub-1,
+    .third-section .third-section-subMain .service-cell-2 .number-2 .sub-1,
+    .third-section .third-section-subMain .service-cell-3 .number-2 .sub-1,
+    .third-section .third-section-subMain .service-cell-4 .number-2 .sub-1,
+    .third-section .third-section-subMain .service-cell-5 .number-2 .sub-1,
+    .third-section .third-section-subMain .service-cell-6 .number-2 .sub-1
+    {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        z-index: 2;
+    }
+    .third-section .third-section-subMain .service-cell-1 .number-2 .sub-2,
+    .third-section .third-section-subMain .service-cell-2 .number-2 .sub-2,
+    .third-section .third-section-subMain .service-cell-3 .number-2 .sub-2,
+    .third-section .third-section-subMain .service-cell-4 .number-2 .sub-2,
+    .third-section .third-section-subMain .service-cell-5 .number-2 .sub-2,
+    .third-section .third-section-subMain .service-cell-6 .number-2 .sub-2
+    {
+        flex: 2.5;
+        display: flex;
+        align-items: center;
+        margin-top: -19px;
+        z-index: 1;
+    }
+}
+@media (max-width: 500px) {
+    .third-section{
+        width: 100%;
+        height: 1200px;
+        margin-top: 1px;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 9%;
+        /* padding-bottom: 100px; */
+        background-color: var(--mintGreen);
+    }
+    .fourth-section .fourth-section-main p{   
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: var(--mintGreen);
+    }
+}

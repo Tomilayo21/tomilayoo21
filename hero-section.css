@@ -1,0 +1,385 @@
+.hero-section .hero-section-main{
+    padding: 2rem 9%;
+    margin-top: 100px;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* overflow: hidden; */
+}
+.hero-section .wave{
+    /* height: 550px; */
+    width: 100%;
+    /* position: absolute; */
+    /* margin-top: -170px; */
+    /* border: none; */
+    background-color: #AAFFC3;
+}
+.hero-section .hero-section-subMain{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -20px;
+}
+.hero-section .hero-section-subMain .hero-section-subMain1 {
+    display: flex;
+    flex: 1;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: start;
+}
+.hero-section .hero-section-subMain .shapesAdd {
+    width: 100px;
+    opacity: 0.5;
+    transform: rotate(45deg);
+    margin: 0 0 0 -20px;
+}
+.hero-section .hero-section-subMain .hero-section-subMain2 {
+    margin-top: 400px;
+    /* background-color: purple; */
+    display: flex;
+    flex: 1;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: end;
+}
+.hero-section .hero-section-subMain .shapesCircle {
+    width: 100px;
+    opacity: 0.5;
+    transform: rotate(-135deg);
+    margin: 0 -20px 0 0;
+}
+.hero-section .hero-section-main .content {
+    /* background-color: lime; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: start;
+    /* padding-right: 7rem; */
+}
+.hero-section .hero-section-main .content h1 {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--lightPink);
+    margin-top: 2.5rem;
+    letter-spacing: 0.3rem;
+    /* background-color: green; */
+}
+.hero-section .hero-section-main .content h1 span {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--mintGreen);
+    letter-spacing: 0.3rem;
+    /* color: #E2725B; */
+}
+.hero-section .hero-section-main .content h2{
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--lightPink);
+    letter-spacing: 0.3rem;
+    /* background-color: purple; */
+}
+.hero-section .hero-section-main .content h3 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    color: var(--lightPink);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.3rem;
+    /* background-color: green; */
+}
+.hero-section .hero-section-main .content p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+    /* background-color: grey; */
+    color: var(--lightPink);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.hero-section .hero-section-main .content .btn {
+    width: 120px;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 2.5rem;
+    background: var(--mintGreen);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1rem;
+    overflow: hidden;
+    position: relative;
+}
+.hero-section .hero-section-main .content .btn span{
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+.hero-section .hero-section-main .content .btn::before{
+    content: "";
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: var(--lightPink);
+    transition: width 0.5s, height 0.5s;
+}
+.hero-section .hero-section-main .content .btn:hover::before{
+    width: 300px;
+    height: 300px;
+}
+.hero-section .hero-section-main .image {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    /* background-color: orange; */
+}
+.hero-section .hero-section-main .image img{
+    width: 300px;
+    /* background-color: orange; */
+}
+@media (max-width: 991px) {
+    html{
+        font-size: 55%;
+    }
+    .hero-section .hero-section-main{
+        padding: 2rem 9%;
+        margin-top: 80px;
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 100px;
+        /* overflow: hidden; */
+    }
+    .hero-section .hero-section-main .content {
+        /* background-color: lime; */
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: start;
+        /* padding-right: 7rem; */
+    }
+    .hero-section .hero-section-main .content h1 {
+        font-size: 3rem;
+        font-family: 'Roboto', sans-serif;
+        color: var(--lightPink);
+        margin-top: 2.5rem;
+        letter-spacing: 0.3rem;
+        /* background-color: green; */
+    }
+    .hero-section .hero-section-main .content h1 span {
+        font-size: 3rem;
+        font-family: 'Roboto', sans-serif;
+        color: var(--mintGreen);
+        letter-spacing: 0.3rem;
+        /* color: #E2725B; */
+    }
+    .hero-section .hero-section-main .content h2{
+        font-size: 2.5rem;
+        margin-top: .5rem;
+        font-family: 'Roboto', sans-serif;
+        color: var(--lightPink);
+        letter-spacing: 0.3rem;
+        /* background-color: purple; */
+    }
+    .hero-section .hero-section-main .content h3 {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        color: var(--lightPink);
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.3rem;
+        /* background-color: green; */
+    }
+    .hero-section .hero-section-main .content p{
+        font-size: 1.6rem;
+        line-height: 3rem;
+        margin-top: 2rem;
+        /* background-color: grey; */
+        color: var(--lightPink);
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.1rem;
+    }
+    .hero-section .hero-section-main .content button {
+        width: 120px;
+        padding: 15px;
+        font-size: 16px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 2.5rem;
+        background: var(--mintGreen);
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.1rem;
+    }
+    .hero-section .hero-section-main .image {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        /* background-color: orange; */
+    }
+    .hero-section .hero-section-main .image img{
+        width: 270px;
+        /* background-color: orange; */
+    }
+    .hero-section .hero-section-main .content .btn {
+        width: 100px;
+        padding: 18px;
+        font-size: 16px;
+        border-radius: 0.5rem;
+        border: none;
+        margin-top: 2.5rem;
+        /* background: var(--mintGreen); */
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        position: relative;
+    }
+    .hero-section .hero-section-subMain .shapesCircle {
+        width: 80px;
+        opacity: 0.5;
+        transform: rotate(-135deg);
+        margin: 0 -20px 0 0;
+    }
+    .hero-section .hero-section-subMain .shapesAdd {
+        width: 80px;
+        opacity: 0.5;
+        transform: rotate(45deg);
+        margin: 0 0 0 -20px;
+    }
+}
+@media (max-width: 768px){
+    .hero-section .hero-section-main{
+        padding-bottom: 200px;
+        padding: 2rem 9%;
+        margin-top: 80px;
+        height: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-section .hero-section-main .content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: start;
+        margin-top: -20px;
+    }
+    .hero-section .hero-section-main .content h1 {
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;
+        color: var(--lightPink);
+        margin-top: 2.5rem;
+        letter-spacing: 0.3rem;
+    }
+    .hero-section .hero-section-main .content h1 span {
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;
+        color: var(--mintGreen);
+        letter-spacing: 0.3rem;
+    }
+    .hero-section .hero-section-main .content h2{
+        font-size: 2.3rem;
+        margin-top: .5rem;
+        font-family: 'Roboto', sans-serif;
+        color: var(--lightPink);
+        letter-spacing: 0.3rem;
+    }
+    .hero-section .hero-section-main .content h3 {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+        color: var(--lightPink);
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.3rem;
+    }
+    .hero-section .hero-section-main .content p{
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin-top: 2rem;
+        color: var(--lightPink);
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.1rem;
+    }
+    .hero-section .hero-section-main .content button {
+        width: 120px;
+        padding: 16px;
+        font-size: 17px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 2.5rem;
+        background: var(--mintGreen);
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.1rem;
+    }
+    .hero-section .hero-section-main .image {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-section .hero-section-subMain .shapesAdd {
+        width: 60px;
+        opacity: 0.5;
+        transform: rotate(45deg);
+        margin: -300px 0 0 -20px;
+    }
+    .hero-section .hero-section-subMain .shapesCircle {
+        width: 60px;
+        opacity: 0.5;
+        transform: rotate(-135deg);
+        margin: 310px -20px 0 0;
+    }
+    .hero-section .hero-section-main .image img{
+        width: 280px;
+        margin-top: -150px;
+    }
+} 
+@media (max-width: 991px) {
+    html{
+        font-size: 50%;
+    }
+    
+}
+@media (max-width: 500px) {
+    .hero-section .hero-section-main{
+        padding: 2rem 9%;
+        margin-top: 80px;
+        height: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 100px;
+        /* overflow: hidden; */
+    }
+    .hero-section .hero-section-main .content .btn {
+        width: 100px;
+        padding: 18px;
+        font-size: 16px;
+        border-radius: 0.5rem;
+        border: none;
+        margin-top: 2.5rem;
+        background: var(--mintGreen);
+        /* background-color: red; */
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.1rem;
+        overflow: hidden;
+        position: relative;
+    }
+    .hero-section .hero-section-main .image img
+    {
+        width: 280px;
+        margin-top: 10px;
+    }
+}

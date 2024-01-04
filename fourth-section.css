@@ -1,0 +1,671 @@
+/* start of fourth section */
+.fourth-section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 9%;
+}
+/* Contains the div for the title of the section */
+.fourth-section .fourth-section-main{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-section .fourth-section-main p{   
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--mintGreen);
+}
+/* Houses the main part  */
+.fourth-section .fourth-section-subMain{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    background-color: black;
+}
+/* Starter, Standard and Advanced divs */
+.fourth-section .fourth-section-subMain .cell-number-1,
+.fourth-section .fourth-section-subMain .cell-number-2,
+.fourth-section .fourth-section-subMain .cell-number-3
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid rgb(170,255,195);
+    background-color: rgba(170,255,195,0.1);
+    border-radius: 12px;
+    height: 450px;
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-1,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-1,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-1
+{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--lightPink);
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-1 .package-type,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-1 .package-type,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-1 .package-type
+{
+    font-size: 20px;
+    color: var(--mintGreen);
+    letter-spacing: 0.8px;
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-1 .package-price,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-1 .package-price,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-1 .package-price
+{
+    font-size: 20px;
+    color: var(--lightPink);
+    letter-spacing: 0.8px;
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-2,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-2,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-2
+{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid var(--lightPink);
+    padding: 10px 0 10px 0;
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-2 .package-type,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-2 .package-type,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-2 .package-type
+{
+    font-size: 16px;
+    color: var(--mintGreen);
+    margin-bottom: 3px;
+    letter-spacing: 0.8px;
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-2 .package-description,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-2 .package-description,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-2 .package-description
+{
+    font-size: 14px;
+    color: var(--lightPink);
+    line-height: 18px;
+    letter-spacing: 0.8px;
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-3,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-3,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-3
+{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+/* The latter part of the section  */
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-3 .cell-1,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-4 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-5 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-6 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-7 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-8 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-9 .cell-1,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-3 .cell-1,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-4 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-5 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-6 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-7 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-8 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-9 .cell-1,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-3 .cell-1,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-4 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-5 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-6 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-7 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-8 .cell-1, 
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-9 .cell-1
+{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    /* background-color: indianred; */
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-3 .cell-1 p,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-4 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-5 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-6 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-7 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-8 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-9 .cell-1 p,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-3 .cell-1 p,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-4 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-5 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-6 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-7 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-8 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-9 .cell-1 p,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-3 .cell-1 p,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-4 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-5 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-6 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-7 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-8 .cell-1 p, 
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-9 .cell-1 p
+{
+    font-size: 15px;
+    color: var(--mintGreen);
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-3 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-4 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-5 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-6 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-7 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-8 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-9 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-3 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-4 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-5 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-6 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-7 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-8 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-9 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-3 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-4 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-5 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-6 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-7 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-8 .cell-2,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-9 .cell-2
+{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-3 .cell-2 p,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-4 .cell-2 p,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-5 .cell-2 p,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-3 .cell-2 p,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-4 .cell-2 p,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-5 .cell-2 p,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-3 .cell-2 p,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-4 .cell-2 p,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-5 .cell-2 p
+{
+    font-size: 15px;
+    color: var(--mintGreen);
+    letter-spacing: 1px;
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-6 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-7 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-8 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-9 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-6 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-7 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-8 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-9 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-6 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-7 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-8 .cell-2 img,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-9 .cell-2 img
+{
+    width: 18px;
+}
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-4,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-4,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-4,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-5,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-5,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-5,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-6,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-6,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-6,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-7,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-7,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-7,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-8,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-8,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-8,
+.fourth-section .fourth-section-subMain .cell-number-1 .sub-9,
+.fourth-section .fourth-section-subMain .cell-number-2 .sub-9,
+.fourth-section .fourth-section-subMain .cell-number-3 .sub-9
+{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1100px) {
+    .fourth-section{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        /* background-color: red; */
+        padding: 2rem 9%;
+        margin-bottom: 10px;
+    }
+    .fourth-section .fourth-section-subMain{
+        flex: 3;
+        display: flex;
+        flex-direction: row;
+        row-gap: 40px;
+        background-color: black;
+        margin: 20px;
+    }
+    /* Starter, Standard and Advanced divs */
+    .fourth-section .fourth-section-subMain .cell-number-1,
+    .fourth-section .fourth-section-subMain .cell-number-2,
+    .fourth-section .fourth-section-subMain .cell-number-3
+    {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid rgb(170,255,195);
+        background-color: rgba(170,255,195,0.1);
+        border-radius: 12px;
+        height: 500px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-1,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-1,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-1
+    {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid var(--lightPink);
+        padding: 15px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-1 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-1 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-1 .package-type
+    {
+        font-size: 18px;
+        color: var(--mintGreen);
+        letter-spacing: 0.8px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-1 .package-price,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-1 .package-price,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-1 .package-price
+    {
+        font-size: 18px;
+        color: var(--lightPink);
+        letter-spacing: 0.8px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-2,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-2,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-2
+    {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 1px solid var(--lightPink);
+        padding: 15px 0 15px 0;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-2 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-2 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-2 .package-type
+    {
+        font-size: 16px;
+        color: var(--mintGreen);
+        margin-bottom: 3px;
+        letter-spacing: 0.8px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-2 .package-description,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-2 .package-description,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-2 .package-description
+    {
+        font-size: 14px;
+        color: var(--lightPink);
+        letter-spacing: 0.8px;
+        line-height: 18px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-3,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-3,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-3,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-4,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-4,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-4,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-5,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-5,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-5,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-6,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-6,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-6,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-7,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-7,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-7,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-8,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-8,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-8,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-9,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-9,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-9
+    {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        padding: 8px 0 0 0;
+        margin-top: -3px;
+    }
+}
+@media (max-width: 991px) {
+    .fourth-section{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        /* background-color: red; */
+
+        padding: 2rem 9%;
+        margin-bottom: 10px;
+    }
+    .fourth-section .fourth-section-subMain{
+        flex: 3;
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+        row-gap: 40px;
+        background-color: black;
+        /* background-color: indianred; */
+        margin: 20px;
+    }
+    /* Starter, Standard and Advanced divs */
+    .fourth-section .fourth-section-subMain .cell-number-1,
+    .fourth-section .fourth-section-subMain .cell-number-2,
+    .fourth-section .fourth-section-subMain .cell-number-3
+    {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        /* padding: 10px; */
+        border: 1px solid rgb(170,255,195);
+        background-color: rgba(170,255,195,0.1);
+        border-radius: 12px;
+        height: 500px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-1,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-1,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-1
+    {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid var(--lightPink);
+        padding: 10px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-1 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-1 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-1 .package-type
+    {
+        font-size: 18px;
+        color: var(--mintGreen);
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-1 .package-price,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-1 .package-price,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-1 .package-price
+    {
+        font-size: 18px;
+        color: var(--lightPink);
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-2,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-2,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-2
+    {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 1px solid var(--lightPink);
+        padding: 15px 0 15px 0;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-2 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-2 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-2 .package-type
+    {
+        font-size: 16px;
+        color: var(--mintGreen);
+        margin-bottom: 3px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-2 .package-description,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-2 .package-description,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-2 .package-description
+    {
+        font-size: 12px;
+        color: var(--lightPink);
+        line-height: 16px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-3,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-3,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-3,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-4,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-4,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-4,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-5,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-5,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-5,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-6,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-6,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-6,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-7,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-7,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-7,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-8,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-8,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-8,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-9,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-9,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-9
+    {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 5px 0 0 0;
+        /* background-color: white; */
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-3 .cell-1 p,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-4 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-5 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-6 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-7 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-8 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-9 .cell-1 p,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-3 .cell-1 p,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-4 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-5 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-6 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-7 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-8 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-9 .cell-1 p,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-3 .cell-1 p,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-4 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-5 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-6 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-7 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-8 .cell-1 p, 
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-9 .cell-1 p
+    {
+        font-size: 13px;
+        color: var(--mintGreen);
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-3 .cell-2 p,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-4 .cell-2 p,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-5 .cell-2 p,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-3 .cell-2 p,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-4 .cell-2 p,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-5 .cell-2 p,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-3 .cell-2 p,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-4 .cell-2 p,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-5 .cell-2 p
+    {
+        font-size: 12px;
+        color: var(--mintGreen);
+        letter-spacing: 1px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-6 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-7 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-8 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-9 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-6 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-7 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-8 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-9 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-6 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-7 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-8 .cell-2 img,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-9 .cell-2 img
+    {
+        width: 13px;
+    }
+}
+@media (max-width: 768px) {
+    .fourth-section{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        /* background-color: red; */
+
+        padding: 2rem 9%;
+        margin-bottom: 10px;
+    }
+    .fourth-section .fourth-section-subMain{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        column-gap: 40px;
+        background-color: black;
+    }
+}
+@media (max-width: 400px) {
+    .fourth-section{
+        width: 100%;
+        height: 700px;
+        /* margin-top: 10px; */
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        padding: 2rem 9%;
+        margin-bottom: 100px;
+    }
+    .fourth-section .fourth-section-subMain{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        /* height: 500px; */
+        row-gap: 40px;
+        /* background-color: rgb(105, 20, 20); */
+        background-color: black;
+        margin-bottom: 150px;
+    }
+    .fourth-section .fourth-section-main p{   
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: var(--mintGreen);
+    }
+    /* Starter, Standard and Advanced divs */
+    .fourth-section .fourth-section-subMain .cell-number-1,
+    .fourth-section .fourth-section-subMain .cell-number-2,
+    .fourth-section .fourth-section-subMain .cell-number-3
+    {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid rgb(170,255,195);
+        background-color: rgba(170,255,195,0.1);
+        border-radius: 12px;
+        height: 600px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-1,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-1,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-1
+    {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid var(--lightPink);
+        padding: 15px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-1 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-1 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-1 .package-type
+    {
+        font-size: 18px;
+        color: var(--mintGreen);
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-1 .package-price,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-1 .package-price,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-1 .package-price
+    {
+        font-size: 18px;
+        color: var(--lightPink);
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-2,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-2,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-2
+    {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 1px solid var(--lightPink);
+        padding: 15px 0 15px 0;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-2 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-2 .package-type,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-2 .package-type
+    {
+        font-size: 16px;
+        color: var(--mintGreen);
+        margin-bottom: 3px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-2 .package-description,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-2 .package-description,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-2 .package-description
+    {
+        font-size: 12px;
+        color: var(--lightPink);
+        line-height: 16px;
+    }
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-3,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-3,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-3,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-4,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-4,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-4,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-5,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-5,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-5,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-6,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-6,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-6,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-7,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-7,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-7,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-8,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-8,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-8,
+    .fourth-section .fourth-section-subMain .cell-number-1 .sub-9,
+    .fourth-section .fourth-section-subMain .cell-number-2 .sub-9,
+    .fourth-section .fourth-section-subMain .cell-number-3 .sub-9
+    {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        padding: 8px 0 0 0;
+    }
+}

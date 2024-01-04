@@ -1,0 +1,238 @@
+.fifth-section{
+    /* margin-top: 700px; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 9%;
+    background-color: var(--mintGreen);
+}
+.fifth-section .fifth-section-main{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.fifth-section .fifth-section-main p{   
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.fifth-section .fifth-section-subMain{
+    margin-top: -30px;
+    flex: 3;
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    column-gap: 40px;
+    /* background-color: black; */
+}
+.fifth-section .fifth-section-subMain .add-to-cartt {
+    background-color: var(--mintGreen);
+    font-size: 18px;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    color: black;
+    cursor: pointer;
+}
+.fifth-section .fifth-section-subMain form {
+    max-width:  90rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--lightPink);
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+.fifth-section .fifth-section-subMain form  .inputBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.fifth-section .fifth-section-subMain form .inputBox .input {
+    width: 49%;
+}
+.fifth-section .fifth-section-subMain form .inputBox .input ::placeholder{
+    color: black;
+}
+.fifth-section .fifth-section-subMain form .inputBox .input span {
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    color: black;
+}
+.fifth-section .fifth-section-subMain form .inputBox .input input,
+.fifth-section .fifth-section-subMain form .inputBox .input textarea,
+.fifth-section .fifth-section-subMain form .inputBox .input select,
+.fifth-section .fifth-section-subMain form .inputBox .input #poll
+{
+    /* background: rgba(0, 0, 0, 0.3); */
+    background-color: var(--mintGreen);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: black;
+    text-transform: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+}
+/* .fifth-section .fifth-section-subMain form .inputBox .input select {
+    min-height: 40px;
+    background-color: var(--mintGreen);
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem;
+    outline: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 100%;
+    appearance: none;
+} */
+/* .fifth-section .fifth-section-subMain form .inputBox .custom-selector::after{
+    content: '';
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: #222;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 2px;
+} */
+/* {
+    background: rgba(0, 0, 0, 0.3);
+    background-color: var(--mintGreen);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: black;
+    text-transform: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+} */
+.fifth-section .fifth-section-subMain form .inputBox .input input:focus,
+.fifth-section .fifth-section-subMain form .inputBox .input textarea:focus
+.fifth-section .fifth-section-subMain form .inputBox .input select:focus
+{
+    border:  0.1rem solid green;
+}
+
+.fifth-section .fifth-section-subMain form .inputBox .input textarea {
+    height: 20rem;
+    resize: none;
+}
+.fifth-section .fifth-section-subMain form .add-to-cartt {
+    margin-top: 0;
+}
+/* For TextArea Only  */
+.fifth-section .fifth-section-subMain form .inputBox .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: orange; */
+}
+.fifth-section .fifth-section-subMain form .inputBox .inputs ::placeholder{
+    color: black;
+}
+.fifth-section .fifth-section-subMain form .inputBox .inputs span {
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    color: black;
+}
+.fifth-section .fifth-section-subMain form .inputBox .inputs textarea
+{
+    background: var(--mintGreen);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: black;
+    text-transform: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+}
+.fifth-section .fifth-section-subMain form .inputBox .inputs textarea:focus
+{
+    border:  0.1rem solid green;
+}
+
+.fifth-section .fifth-section-subMain form .inputBox .inputs textarea {
+    height: 15rem;
+    resize: none;
+}
+@media (max-width: 991px) {
+    .fifth-section{
+        /* margin-top: 500px; */
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 9%;
+        background-color: var(--mintGreen);
+    }
+    .fifth-section .fifth-section-subMain form .inputBox .input {
+        width: 49%;
+    }
+}
+@media (max-width: 768px) {
+    .fifth-section{
+        margin-top: 500px;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 9%;
+        background-color: var(--mintGreen);
+    }
+    .fifth-section .fifth-section-subMain form .inputBox .input {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .fifth-section{
+        margin-top: 1000px;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 9%;
+        background-color: var(--mintGreen);
+    }
+    .fifth-section .fifth-section-subMain .add-to-cartt {
+        background-color: var(--mintGreen);
+        font-size: 15px;
+        padding: 10px;
+        width: 100px;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+        color: black;
+        cursor: pointer;
+    }
+    .fifth-section .fifth-section-main p{   
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: black;
+    }
+    .fifth-section .fifth-section-subMain form .inputBox .input {
+        width: 100%;
+    }
+    .fifth-section .fifth-section-subMain form .inputBox .input span {
+        display: block;
+        padding: 0.5rem 0;
+        font-size: 1.4rem;
+        color: black;
+    }
+    .fifth-section .fifth-section-subMain form .inputBox .input ::placeholder,
+    .fifth-section .fifth-section-subMain form .inputBox .input select,
+    .fifth-section .fifth-section-subMain form .inputBox .input #poll
+    {
+        color: black;
+        font-size: 1.4rem;
+    }
+}
