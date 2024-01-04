@@ -4,6 +4,7 @@
     /* margin-top: -180px; */
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     /* background-color: green; */
 }
 .second-section .second-section-main{
@@ -335,7 +336,7 @@
     .second-section{
         width: 100%;
         height: 450px;
-        margin-top: -50px;
+        margin-bottom: 100px;
         display: flex;
         flex-direction: column;
         padding: 1rem 9%;
@@ -349,6 +350,8 @@
         column-gap: 5px;
         row-gap: 15px;
         padding-top: 25px;
+        /* padding-bottom: 200px; */
+        /* background-color: red; */
     }
     /* Code Image Icon */
     .second-section .second-section-subMain .grid2 .divv1 img {
