@@ -31,4 +31,5 @@ body {
 .elfsight{
     overflow: hidden;
     padding: 1rem 9%;
+    width: 30px;
 }

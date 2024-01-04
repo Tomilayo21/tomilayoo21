@@ -12,7 +12,7 @@ header {
     height: 80px;
     box-shadow: var(--box-shadow);
     z-index: 1000;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 header .nav-logo{
     width: 60px;
@@ -126,7 +126,7 @@ header .icon img:hover {
         display: inline-block;
     }
     header .nav-logo {
-    width: 40px;
+        width: 4.5rem;
     }
     header .icon img {
         height: 3rem;
@@ -186,7 +186,8 @@ header .icon img:hover {
         /* background-color: red; */
     }
     header .nav-logo{
-        width: 50px;
+        width: 4.5rem;
         margin-right: 100px;
     }
+    
 }

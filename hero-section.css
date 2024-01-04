@@ -355,12 +355,13 @@
     .hero-section .hero-section-main{
         padding: 2rem 9%;
         margin-top: 80px;
-        height: 850px;
+        height: 880px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding-bottom: 200px;
+        padding-top: 50px;
         /* overflow: hidden; */
     }
     .hero-section .hero-section-main .content .btn {
