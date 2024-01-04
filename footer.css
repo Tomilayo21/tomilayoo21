@@ -68,7 +68,7 @@ footer .footerRight img {
 
 }
 
-@media (max-width: 991px) {
+@media (max-width: 800px) {
     footer {
         display: flex;
         flex-direction: column;
