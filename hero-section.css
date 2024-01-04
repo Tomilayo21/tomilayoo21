@@ -115,6 +115,9 @@
     overflow: hidden;
     position: relative;
 }
+.hero-section .hero-section-main .content .btn a {
+    color: black;
+}
 .hero-section .hero-section-main .content .btn span{
     position: relative;
     z-index: 2;
@@ -366,8 +369,8 @@
     }
     .hero-section .hero-section-main .content .btn {
         width: 100px;
-        padding: 18px;
-        font-size: 16px;
+        padding: 15px;
+        font-size: 14px;
         border-radius: 0.5rem;
         border: none;
         margin-top: 2.5rem;
