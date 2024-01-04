@@ -343,8 +343,8 @@
     }
     .second-section .second-section-subMain .grid1 {
         display: grid;
-        grid-template-columns: repeat(4, 75px);
-        grid-template-rows: repeat(3, 65px);
+        grid-template-columns: repeat(4, 70px);
+        grid-template-rows: repeat(3, 60px);
         justify-content: center;
         align-content: center;
         column-gap: 5px;
@@ -369,26 +369,26 @@
     }
     /* Bootstrap Image  */
     .second-section .second-section-subMain  .div3 img {
-        width: 70px;
+        width: 65px;
     }
     /* React Image */
     .second-section .second-section-subMain  .div7 img {
-        width: 70px;
+        width: 65px;
     }
     /* HTML5 Image */
     .second-section .second-section-subMain  .div8 img {
-        width: 50px;
+        width: 45px;
     }
     /* jQuery Image */
     .second-section .second-section-subMain  .div6 img,
     /* Shopify Image */
     .second-section .second-section-subMain  .div9 img
     {
-        width: 40px;
+        width: 35px;
     }
     /* JavaScript Image */
     .second-section .second-section-subMain  .div5 img 
     {
-        width: 60px;
+        width: 55px;
     }
 }

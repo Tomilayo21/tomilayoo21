@@ -6,7 +6,7 @@ footer {
     justify-content: space-between;
     background-color: black;
     /* width: 100%; */
-    height: 50px;
+    height: 70px;
     box-shadow: var(--box-shadow);
 }
 footer .footerLeft {
@@ -31,24 +31,27 @@ footer .footerCenter .firstSection a {
     /* border: 1px solid blue; */
 }
 footer .footerCenter .firstSection .home {
-    padding: 0 5px 0 5px;
+    padding: 0 4px 0 2px;
     border-right: 1px solid var(--lightPink);
 }
 footer .footerCenter .firstSection .aboutMe {
-    padding: 0 5px 0 5px;
+    padding: 0 4px 0 2px;
     border-right: 1px solid var(--lightPink);
 }
 footer .footerCenter .firstSection .skills {
-    padding: 0 5px 0 5px;
+    padding: 0 4px 0 2px;
     border-right: 1px solid var(--lightPink);
 }
 footer .footerCenter .firstSection .services {
-    padding: 0 5px 0 5px;
+    padding: 0 4px 0 2px;
     border-right: 1px solid var(--lightPink);
 }
 footer .footerCenter .firstSection .pricing {
-    padding: 0 5px 0 5px;
+    padding: 0 4px 0 2px;
     border-right: 1px solid var(--lightPink);
+}
+footer .footerCenter .firstSection .contact {
+    padding: 0 0 0 2px;
 }
 footer .footerCenter .secondSection p{
     color: var(--mintGreen);
@@ -65,7 +68,7 @@ footer .footerRight img {
 
 }
 
-@media (max-width: 870px) {
+@media (max-width: 991px) {
     footer {
         display: flex;
         flex-direction: column;
