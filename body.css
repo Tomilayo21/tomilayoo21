@@ -28,3 +28,7 @@ body {
     background-color: black;
     /* margin-bottom: 1000px; */
 }
+.elfsight{
+    overflow: hidden;
+    padding: 1rem 9%;
+}

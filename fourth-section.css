@@ -242,8 +242,7 @@
         height: 700px;
         display: flex;
         flex-direction: column;
-        background-color: black;
-        /* background-color: red; */
+        /* background-color: black; */
         padding: 2rem 9%;
         margin-bottom: 10px;
     }
@@ -352,7 +351,7 @@
         display: flex;
         flex-direction: row;
         padding: 8px 0 0 0;
-        margin-top: -3px;
+        margin-top: 1px;
     }
 }
 @media (max-width: 991px) {
@@ -540,39 +539,58 @@
         padding: 2rem 9%;
         margin-bottom: 10px;
     }
+    .fourth-section .fourth-section-main{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        /* background-color: grey; */
+        padding: 10px;
+    }
+    .fourth-section .fourth-section-main p{   
+        font-size: 3rem;
+        font-weight: bold;
+        color: var(--mintGreen);
+    }
+    
     .fourth-section .fourth-section-subMain{
-        flex: 3;
+        flex: 8;
         display: flex;
         flex-direction: column;
         column-gap: 40px;
         background-color: black;
     }
+    
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .fourth-section{
         width: 100%;
-        height: 700px;
+        /* height: 700px; */
         /* margin-top: 10px; */
         display: flex;
         flex-direction: column;
         background-color: black;
+        /* background-color: lime; */
         padding: 2rem 9%;
         margin-bottom: 100px;
     }
     .fourth-section .fourth-section-subMain{
-        flex: 3;
+        flex: 10;
         display: flex;
         flex-direction: column;
         /* height: 500px; */
         row-gap: 40px;
         /* background-color: rgb(105, 20, 20); */
         background-color: black;
-        margin-bottom: 150px;
+        margin-bottom: -900px;
+        /* margin-top: -20px; */
+
     }
     .fourth-section .fourth-section-main p{   
         font-size: 2.5rem;
         font-weight: bold;
         color: var(--mintGreen);
+        /* background-color: white; */
     }
     /* Starter, Standard and Advanced divs */
     .fourth-section .fourth-section-subMain .cell-number-1,
